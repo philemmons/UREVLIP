@@ -1,1 +1,29 @@
 # UREVLIP
+
+## User Registration with Email Verification in PHP
+
+[https://www.tutsmake.com/user-registration-with-email-verification-in-php/](https://www.tutsmake.com/user-registration-with-email-verification-in-php/)
+
+Send confirmation email link after registration in PHP and MySQL. Here, we will show you how to send user confirmation email after registration with activation link in PHP and MySQL.
+
+As well as we provide the email verification php source code link at the end of this tutorial.
+
+Suppose, any user registered with your PHP and MySQL web/app. And you need to verify user email address by send activation/verification link in email on user registration.
+
+So, this user registration with email verification in PHP tutorial will guide you step by step on how to send email verification/activation link after user registration in PHP and MySQL.
+
+## Toolchain Used with this tutorial:
+- Github
+- Heroku
+- VS Code
+- GitBash for Windows
+- GitHub Cheat Sheet
+- Markdown Cheat Sheet
+- MySql Workbench
+- Email Service
+
+## Languages and scripts used in the tutorial:
+- PHP
+- HTML5
+- MySQL
+
