@@ -10,7 +10,16 @@ As well as we provide the email verification php source code link at the end of 
 
 Suppose, any user registered with your PHP and MySQL web/app. And you need to verify user email address by send activation/verification link in email on user registration.
 
-So, this user registration with email verification in PHP tutorial will guide you step by step on how to send email verification/activation link after user registration in PHP and MySQL.
+So, this user registration with email verification in PHP tutorial will guide you step by step on how to send email verification/activation link after user
+registration in PHP and MySQL.
+
+## Additonal Changes
+
+db.php is not used due because the database credentials would be accessiable on
+GitHub. The database creds are stored in heroku's Config Vars which should maintain
+security. Furthermore, the PDO version was used due to the try catch implementation.
+Examine the dbConnection.php for details or goto
+[https://devcenter.heroku.com/articles/jawsdb#using-jawsdb-with-php](https://devcenter.heroku.com/articles/jawsdb#using-jawsdb-with-php) for more information.
 
 ## Toolchain Used with this tutorial:
 - Github
