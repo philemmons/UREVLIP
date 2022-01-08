@@ -13,17 +13,26 @@ Suppose, any user registered with your PHP and MySQL web/app. And you need to ve
 So, this user registration with email verification in PHP tutorial will guide you step by step on how to send email verification/activation link after user
 registration in PHP and MySQL.
 
+*Note that:- If you are sending a mail using Gmail you have to allow non-secure apps to access Gmail you can do this by going to your Gmail settings here.*
+
+*Once less secure apps are enabled; now you can use your Gmail for sending the emails.*
+
 ## Additonal Changes
 
 db.php is not used due because the database credentials would be accessiable on
 GitHub. The database creds are stored in heroku's Config Vars which should maintain
-security. Furthermore, the PDO version was used due to the try catch implementation.
+security.
+
+Furthermore, the PDO version was used due to the try catch implementation.
 Examine the dbConnection.php for details or goto
 [https://devcenter.heroku.com/articles/jawsdb#using-jawsdb-with-php](https://devcenter.heroku.com/articles/jawsdb#using-jawsdb-with-php) for more information.
+
+Question: will a PDO connection work with mysqli functions?  Most likely, no.
 
 ## Toolchain Used with this tutorial:
 - Github
 - Heroku
+- Bootstrap
 - VS Code
 - GitBash for Windows
 - GitHub Cheat Sheet
@@ -35,4 +44,6 @@ Examine the dbConnection.php for details or goto
 - PHP
 - HTML5
 - MySQL
+- CSS
+
 
